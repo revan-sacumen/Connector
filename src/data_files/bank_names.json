@@ -1,0 +1,136 @@
+{
+    "data": [
+        {
+            "id": 46036,
+            "name": "360 TREASURY SYSTEMS AG"
+        },
+        {
+            "id": 46037,
+            "name": "886 AG"
+        },
+        {
+            "id": 46038,
+            "name": "AACHENER BANK EG"
+        },
+        {
+            "id": 46039,
+            "name": "AACHENER BAUSPARKASSE AKTIENGESELLSCHAFT"
+        },
+        {
+            "id": 46040,
+            "name": "'AACHENER' GRUNDVERMOEGEN-KAPITALANLAGEGESELLSCHAFT MIT BESCHRANKTER HAFTUNG"
+        },
+        {
+            "id": 46041,
+            "name": "AAREAL BANK AG (FORMERLY WESTDEUTSCHE IMMOBILIENBANK AG)"
+        },
+        {
+            "id": 46042,
+            "name": "ABACUS GMBH"
+        },
+        {
+            "id": 46043,
+            "name": "ABC INTERNATIONAL BANK PLC, ZWEIGNIEDERLASSUNG FRANKFURT AM MAIN"
+        },
+        {
+            "id": 46044,
+            "name": "ABCBANK GMBH"
+        },
+        {
+            "id": 46045,
+            "name": "ABK-SYSTEME GESELLSCHAFT FUER AUSBILDUNG, BERATUNG UND KOMMUNIKATIONSSYSTEME M.B.H."
+        }
+    ],
+    "links": {
+        "first": "https://api.apilayer.com/bank_data/banks_by_country?page=1",
+        "last": "https://api.apilayer.com/bank_data/banks_by_country?page=280",
+        "next": "https://api.apilayer.com/bank_data/banks_by_country?page=2",
+        "prev": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 280,
+        "links": [
+            {
+                "active": false,
+                "label": "&laquo; Previous",
+                "url": null
+            },
+            {
+                "active": true,
+                "label": "1",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=1"
+            },
+            {
+                "active": false,
+                "label": "2",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=2"
+            },
+            {
+                "active": false,
+                "label": "3",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=3"
+            },
+            {
+                "active": false,
+                "label": "4",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=4"
+            },
+            {
+                "active": false,
+                "label": "5",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=5"
+            },
+            {
+                "active": false,
+                "label": "6",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=6"
+            },
+            {
+                "active": false,
+                "label": "7",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=7"
+            },
+            {
+                "active": false,
+                "label": "8",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=8"
+            },
+            {
+                "active": false,
+                "label": "9",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=9"
+            },
+            {
+                "active": false,
+                "label": "10",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=10"
+            },
+            {
+                "active": false,
+                "label": "...",
+                "url": null
+            },
+            {
+                "active": false,
+                "label": "279",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=279"
+            },
+            {
+                "active": false,
+                "label": "280",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=280"
+            },
+            {
+                "active": false,
+                "label": "Next &raquo;",
+                "url": "https://api.apilayer.com/bank_data/banks_by_country?page=2"
+            }
+        ],
+        "path": "https://api.apilayer.com/bank_data/banks_by_country",
+        "per_page": 10,
+        "to": 10,
+        "total": 2796
+    }
+}

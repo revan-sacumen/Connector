@@ -1,0 +1,525 @@
+2022-10-04 09:27:41,299 - validation_collectors - INFO - creating validators instance - 7469
+2022-10-04 09:27:41,299 - validation_collectors - INFO - initlized and created instance - 7469
+2022-10-04 09:27:41,299 - validation_collectors - INFO - getting all bank details and performing to stor in file - 7469
+2022-10-04 09:28:14,335 - validation_collectors - INFO - response stored in file - 7469
+2022-10-04 09:28:14,335 - validation_collectors - INFO - requesting all banks name - 7469
+2022-10-04 09:28:15,152 - validation_collectors - INFO - stored response into file - 7469
+2022-10-04 09:28:15,152 - validation_collectors - INFO - requsting and checking iban number validation - 7469
+2022-10-04 09:28:15,970 - validation_collectors - INFO - stored valid iban bank details into file - 7469
+2022-10-04 09:28:15,970 - validation_collectors - INFO - Checking swift code is valid or not  - 7469
+2022-10-04 09:28:16,789 - validation_collectors - INFO - stored valid swift code bank details into file - 7469
+2022-10-04 09:28:16,789 - validation_collectors - INFO - compeleted performance - 7469
+2022-10-04 10:22:33,303 - validation_collectors - INFO - creating validators instance - 20268
+2022-10-04 10:22:33,303 - validation_collectors - INFO - initlized and created instance - 20268
+2022-10-04 10:22:33,303 - validation_collectors - INFO - getting all bank details and performing to stor in file - 20268
+2022-10-04 10:22:37,636 - validation_collectors - INFO - response stored in file - 20268
+2022-10-04 10:22:37,636 - validation_collectors - INFO - requesting all banks name - 20268
+2022-10-04 10:22:38,556 - validation_collectors - INFO - stored response into file - 20268
+2022-10-04 10:22:38,556 - validation_collectors - INFO - requsting and checking iban number validation - 20268
+2022-10-04 10:22:39,376 - validation_collectors - INFO - stored valid iban bank details into file - 20268
+2022-10-04 10:22:39,376 - validation_collectors - INFO - Checking swift code is valid or not  - 20268
+2022-10-04 10:22:40,092 - validation_collectors - INFO - stored valid swift code bank details into file - 20268
+2022-10-04 10:22:40,092 - validation_collectors - INFO - compeleted performance - 20268
+2022-10-04 12:37:08,452 - validation_collectors - INFO - creating validators instance - 46020
+2022-10-04 12:37:08,452 - validation_collectors - INFO - initlized and created instance - 46020
+2022-10-04 12:37:08,452 - validation_collectors - INFO - getting all bank details and performing to stor in file - 46020
+2022-10-04 12:41:25,064 - validation_collectors - INFO - creating validators instance - 46863
+2022-10-04 12:41:25,064 - validation_collectors - INFO - initlized and created instance - 46863
+2022-10-04 12:41:25,064 - validation_collectors - INFO - getting all bank details and performing to stor in file - 46863
+2022-10-04 12:48:16,908 - validation_collectors - INFO - creating validators instance - 48420
+2022-10-04 12:48:16,908 - validation_collectors - INFO - initlized and created instance - 48420
+2022-10-04 12:48:16,908 - validation_collectors - INFO - getting all bank details and performing to stor in file - 48420
+2022-10-04 12:48:19,806 - validation_collectors - INFO - response stored in file - 48420
+2022-10-04 12:48:19,806 - validation_collectors - INFO - requesting all banks name - 48420
+2022-10-04 12:48:19,806 - validation_collectors - INFO - stored response into file - 48420
+2022-10-04 12:48:19,806 - validation_collectors - INFO - requsting and checking iban number validation - 48420
+2022-10-04 12:48:19,806 - validation_collectors - INFO - stored valid iban bank details into file - 48420
+2022-10-04 12:48:19,806 - validation_collectors - INFO - Checking swift code is valid or not  - 48420
+2022-10-04 12:48:19,807 - validation_collectors - INFO - stored valid swift code bank details into file - 48420
+2022-10-04 12:48:19,807 - validation_collectors - INFO - compeleted performance - 48420
+2022-10-04 12:48:37,236 - validation_collectors - INFO - creating validators instance - 49118
+2022-10-04 12:48:37,236 - validation_collectors - INFO - initlized and created instance - 49118
+2022-10-04 12:48:37,236 - validation_collectors - INFO - getting all bank details and performing to stor in file - 49118
+2022-10-04 12:48:38,365 - validation_collectors - INFO - response stored in file - 49118
+2022-10-04 12:48:38,365 - validation_collectors - INFO - requesting all banks name - 49118
+2022-10-04 12:48:38,365 - validation_collectors - INFO - stored response into file - 49118
+2022-10-04 12:48:38,365 - validation_collectors - INFO - requsting and checking iban number validation - 49118
+2022-10-04 12:48:38,365 - validation_collectors - INFO - stored valid iban bank details into file - 49118
+2022-10-04 12:48:38,365 - validation_collectors - INFO - Checking swift code is valid or not  - 49118
+2022-10-04 12:48:38,365 - validation_collectors - INFO - stored valid swift code bank details into file - 49118
+2022-10-04 12:48:38,365 - validation_collectors - INFO - compeleted performance - 49118
+2022-10-04 13:12:30,016 - validation_collectors - INFO - creating validators instance - 56101
+2022-10-04 13:12:30,016 - validation_collectors.validators - INFO - requirments are initlizing - 56101
+2022-10-04 13:12:30,016 - validation_collectors - INFO - initlized and created instance - 56101
+2022-10-04 13:12:30,016 - validation_collectors - INFO - getting all bank details and performing to stor in file - 56101
+2022-10-04 13:12:30,016 - validation_collectors.validators - INFO - geting bank details from Bank API - 56101
+2022-10-04 13:12:33,286 - validation_collectors.validators - ERROR - write() argument must be str, not dict - 56101
+2022-10-04 13:12:33,286 - validation_collectors - INFO - response stored in file - 56101
+2022-10-04 13:12:33,286 - validation_collectors - INFO - requesting all banks name - 56101
+2022-10-04 13:12:33,286 - validation_collectors - INFO - stored response into file - 56101
+2022-10-04 13:12:33,286 - validation_collectors - INFO - requsting and checking iban number validation - 56101
+2022-10-04 13:12:33,286 - validation_collectors - INFO - stored valid iban bank details into file - 56101
+2022-10-04 13:12:33,286 - validation_collectors - INFO - Checking swift code is valid or not  - 56101
+2022-10-04 13:12:33,286 - validation_collectors - INFO - stored valid swift code bank details into file - 56101
+2022-10-04 13:12:33,286 - validation_collectors - INFO - compeleted performance - 56101
+2022-10-04 13:15:39,082 - validation_collectors - INFO - creating validators instance - 56527
+2022-10-04 13:15:39,082 - validation_collectors.validators - INFO - requirments are initlizing - 56527
+2022-10-04 13:15:39,083 - validation_collectors - INFO - initlized and created instance - 56527
+2022-10-04 13:15:39,083 - validation_collectors - INFO - getting all bank details and performing to stor in file - 56527
+2022-10-04 13:15:39,083 - validation_collectors.validators - INFO - geting bank details from Bank API - 56527
+2022-10-04 13:15:56,855 - validation_collectors.validators - INFO - All Bank Data stored in file - 56527
+2022-10-04 13:15:56,855 - validation_collectors - INFO - response stored in file - 56527
+2022-10-04 13:15:56,855 - validation_collectors - INFO - requesting all banks name - 56527
+2022-10-04 13:15:56,855 - validation_collectors - INFO - stored response into file - 56527
+2022-10-04 13:15:56,856 - validation_collectors - INFO - requsting and checking iban number validation - 56527
+2022-10-04 13:15:56,856 - validation_collectors - INFO - stored valid iban bank details into file - 56527
+2022-10-04 13:15:56,856 - validation_collectors - INFO - Checking swift code is valid or not  - 56527
+2022-10-04 13:15:56,856 - validation_collectors - INFO - stored valid swift code bank details into file - 56527
+2022-10-04 13:15:56,856 - validation_collectors - INFO - compeleted performance - 56527
+2022-10-04 13:17:18,055 - validation_collectors - INFO - creating validators instance - 56808
+2022-10-04 13:17:18,056 - validation_collectors.validators - INFO - requirments are initlizing - 56808
+2022-10-04 13:17:18,056 - validation_collectors - INFO - initlized and created instance - 56808
+2022-10-04 13:17:18,056 - validation_collectors - INFO - getting all bank details and performing to stor in file - 56808
+2022-10-04 13:17:18,056 - validation_collectors.validators - INFO - geting bank details from Bank API - 56808
+2022-10-04 13:17:18,877 - validation_collectors.validators - INFO - All Bank Data stored in file - 56808
+2022-10-04 13:17:18,877 - validation_collectors - INFO - response stored in file - 56808
+2022-10-04 13:17:18,877 - validation_collectors - INFO - requesting all banks name - 56808
+2022-10-04 13:17:18,877 - validation_collectors - INFO - stored response into file - 56808
+2022-10-04 13:17:18,877 - validation_collectors - INFO - requsting and checking iban number validation - 56808
+2022-10-04 13:17:18,877 - validation_collectors - INFO - stored valid iban bank details into file - 56808
+2022-10-04 13:17:18,877 - validation_collectors - INFO - Checking swift code is valid or not  - 56808
+2022-10-04 13:17:18,877 - validation_collectors - INFO - stored valid swift code bank details into file - 56808
+2022-10-04 13:17:18,877 - validation_collectors - INFO - compeleted performance - 56808
+2022-10-04 13:41:48,517 - validation_collectors - INFO - creating validators instance - 61406
+2022-10-04 13:41:48,517 - validation_collectors.validators - INFO - requirments are initlizing - 61406
+2022-10-04 13:41:48,517 - validation_collectors - INFO - initlized and created instance - 61406
+2022-10-04 13:41:48,517 - validation_collectors - INFO - getting all bank details and performing to stor in file - 61406
+2022-10-04 13:41:48,517 - validation_collectors.validators - INFO - geting bank details from Bank API - 61406
+2022-10-04 13:42:18,892 - validation_collectors - INFO - creating validators instance - 61565
+2022-10-04 13:42:18,892 - validation_collectors.validators - INFO - requirments are initlizing - 61565
+2022-10-04 13:42:18,892 - validation_collectors - INFO - initlized and created instance - 61565
+2022-10-04 13:42:18,892 - validation_collectors - INFO - getting all bank details and performing to stor in file - 61565
+2022-10-04 13:42:18,892 - validation_collectors.validators - INFO - geting bank details from Bank API - 61565
+2022-10-04 13:42:50,927 - validation_collectors - INFO - creating validators instance - 61670
+2022-10-04 13:42:50,927 - validation_collectors.validators - INFO - requirments are initlizing - 61670
+2022-10-04 13:42:50,927 - validation_collectors - INFO - initlized and created instance - 61670
+2022-10-04 13:42:50,927 - validation_collectors - INFO - getting all bank details and performing to stor in file - 61670
+2022-10-04 13:42:50,927 - validation_collectors.validators - INFO - geting bank details from Bank API - 61670
+2022-10-04 13:42:51,963 - validation_collectors.validators - ERROR - Object of type TextIOWrapper is not JSON serializable - 61670
+2022-10-04 13:42:51,963 - validation_collectors - INFO - response stored in file - 61670
+2022-10-04 13:42:51,963 - validation_collectors - INFO - requesting all banks name - 61670
+2022-10-04 13:42:51,963 - validation_collectors - INFO - stored response into file - 61670
+2022-10-04 13:42:51,963 - validation_collectors - INFO - requsting and checking iban number validation - 61670
+2022-10-04 13:42:51,963 - validation_collectors - INFO - stored valid iban bank details into file - 61670
+2022-10-04 13:42:51,963 - validation_collectors - INFO - Checking swift code is valid or not  - 61670
+2022-10-04 13:42:51,963 - validation_collectors - INFO - stored valid swift code bank details into file - 61670
+2022-10-04 13:42:51,963 - validation_collectors - INFO - compeleted performance - 61670
+2022-10-04 13:48:34,069 - validation_collectors - INFO - creating validators instance - 62746
+2022-10-04 13:48:34,069 - validation_collectors.validators - INFO - requirments are initlizing - 62746
+2022-10-04 13:48:34,069 - validation_collectors - INFO - initlized and created instance - 62746
+2022-10-04 13:48:34,069 - validation_collectors - INFO - getting all bank details and performing to stor in file - 62746
+2022-10-04 13:48:34,069 - validation_collectors.validators - INFO - geting bank details from Bank API - 62746
+2022-10-04 13:48:35,000 - validation_collectors.validators - ERROR - load() takes 1 positional argument but 2 were given - 62746
+2022-10-04 13:48:35,000 - validation_collectors - INFO - response stored in file - 62746
+2022-10-04 13:48:35,000 - validation_collectors - INFO - requesting all banks name - 62746
+2022-10-04 13:48:35,000 - validation_collectors - INFO - stored response into file - 62746
+2022-10-04 13:48:35,000 - validation_collectors - INFO - requsting and checking iban number validation - 62746
+2022-10-04 13:48:35,000 - validation_collectors - INFO - stored valid iban bank details into file - 62746
+2022-10-04 13:48:35,000 - validation_collectors - INFO - Checking swift code is valid or not  - 62746
+2022-10-04 13:48:35,000 - validation_collectors - INFO - stored valid swift code bank details into file - 62746
+2022-10-04 13:48:35,000 - validation_collectors - INFO - compeleted performance - 62746
+2022-10-04 13:49:58,747 - validation_collectors - INFO - creating validators instance - 62949
+2022-10-04 13:49:58,747 - validation_collectors.validators - INFO - requirments are initlizing - 62949
+2022-10-04 13:49:58,747 - validation_collectors - INFO - initlized and created instance - 62949
+2022-10-04 13:49:58,747 - validation_collectors - INFO - getting all bank details and performing to stor in file - 62949
+2022-10-04 13:49:58,747 - validation_collectors.validators - INFO - geting bank details from Bank API - 62949
+2022-10-04 13:50:00,217 - validation_collectors.validators - ERROR - Object of type TextIOWrapper is not JSON serializable - 62949
+2022-10-04 13:50:00,217 - validation_collectors - INFO - response stored in file - 62949
+2022-10-04 13:50:00,217 - validation_collectors - INFO - requesting all banks name - 62949
+2022-10-04 13:50:00,217 - validation_collectors - INFO - stored response into file - 62949
+2022-10-04 13:50:00,217 - validation_collectors - INFO - requsting and checking iban number validation - 62949
+2022-10-04 13:50:00,217 - validation_collectors - INFO - stored valid iban bank details into file - 62949
+2022-10-04 13:50:00,217 - validation_collectors - INFO - Checking swift code is valid or not  - 62949
+2022-10-04 13:50:00,217 - validation_collectors - INFO - stored valid swift code bank details into file - 62949
+2022-10-04 13:50:00,217 - validation_collectors - INFO - compeleted performance - 62949
+2022-10-04 13:51:13,999 - validation_collectors - INFO - creating validators instance - 63265
+2022-10-04 13:51:13,999 - validation_collectors.validators - INFO - requirments are initlizing - 63265
+2022-10-04 13:51:14,000 - validation_collectors - INFO - initlized and created instance - 63265
+2022-10-04 13:51:14,000 - validation_collectors - INFO - getting all bank details and performing to stor in file - 63265
+2022-10-04 13:51:14,000 - validation_collectors.validators - INFO - geting bank details from Bank API - 63265
+2022-10-04 13:51:14,873 - validation_collectors.validators - ERROR - Object of type TextIOWrapper is not JSON serializable - 63265
+2022-10-04 13:51:14,873 - validation_collectors - INFO - response stored in file - 63265
+2022-10-04 13:51:14,873 - validation_collectors - INFO - requesting all banks name - 63265
+2022-10-04 13:51:14,873 - validation_collectors - INFO - stored response into file - 63265
+2022-10-04 13:51:14,873 - validation_collectors - INFO - requsting and checking iban number validation - 63265
+2022-10-04 13:51:14,873 - validation_collectors - INFO - stored valid iban bank details into file - 63265
+2022-10-04 13:51:14,873 - validation_collectors - INFO - Checking swift code is valid or not  - 63265
+2022-10-04 13:51:14,873 - validation_collectors - INFO - stored valid swift code bank details into file - 63265
+2022-10-04 13:51:14,873 - validation_collectors - INFO - compeleted performance - 63265
+2022-10-04 13:51:39,269 - validation_collectors - INFO - creating validators instance - 63337
+2022-10-04 13:51:39,269 - validation_collectors.validators - INFO - requirments are initlizing - 63337
+2022-10-04 13:51:39,270 - validation_collectors - INFO - initlized and created instance - 63337
+2022-10-04 13:51:39,270 - validation_collectors - INFO - getting all bank details and performing to stor in file - 63337
+2022-10-04 13:51:39,270 - validation_collectors.validators - INFO - geting bank details from Bank API - 63337
+2022-10-04 13:56:04,836 - validation_collectors - INFO - creating validators instance - 64029
+2022-10-04 13:56:04,836 - validation_collectors.validators - INFO - requirments are initlizing - 64029
+2022-10-04 13:56:04,837 - validation_collectors - INFO - initlized and created instance - 64029
+2022-10-04 13:56:04,837 - validation_collectors - INFO - getting all bank details and performing to stor in file - 64029
+2022-10-04 13:56:04,837 - validation_collectors.validators - INFO - geting bank details from Bank API - 64029
+2022-10-04 13:56:05,595 - validation_collectors.validators - INFO - All Bank Data stored in file - 64029
+2022-10-04 13:56:05,596 - validation_collectors - INFO - response stored in file - 64029
+2022-10-04 13:56:05,596 - validation_collectors - INFO - requesting all banks name - 64029
+2022-10-04 13:56:05,596 - validation_collectors - INFO - stored response into file - 64029
+2022-10-04 13:56:05,596 - validation_collectors - INFO - requsting and checking iban number validation - 64029
+2022-10-04 13:56:05,596 - validation_collectors - INFO - stored valid iban bank details into file - 64029
+2022-10-04 13:56:05,596 - validation_collectors - INFO - Checking swift code is valid or not  - 64029
+2022-10-04 13:56:05,596 - validation_collectors - INFO - stored valid swift code bank details into file - 64029
+2022-10-04 13:56:05,596 - validation_collectors - INFO - compeleted performance - 64029
+2022-10-04 14:03:55,478 - validation_collectors - INFO - creating validators instance - 66277
+2022-10-04 14:03:55,478 - validation_collectors.validators - INFO - requirments are initlizing - 66277
+2022-10-04 14:03:55,478 - validation_collectors - INFO - initlized and created instance - 66277
+2022-10-04 14:03:55,478 - validation_collectors - INFO - getting all bank details and performing to stor in file - 66277
+2022-10-04 14:03:55,479 - validation_collectors.validators - INFO - geting bank details from Bank API - 66277
+2022-10-04 14:03:56,636 - validation_collectors.validators - INFO - All Bank Data stored in file - 66277
+2022-10-04 14:03:56,636 - validation_collectors - INFO - response stored in file - 66277
+2022-10-04 14:03:56,637 - validation_collectors - INFO - requesting all banks name - 66277
+2022-10-04 14:03:56,637 - validation_collectors - INFO - stored response into file - 66277
+2022-10-04 14:03:56,637 - validation_collectors - INFO - requsting and checking iban number validation - 66277
+2022-10-04 14:03:56,637 - validation_collectors - INFO - stored valid iban bank details into file - 66277
+2022-10-04 14:03:56,637 - validation_collectors - INFO - Checking swift code is valid or not  - 66277
+2022-10-04 14:03:56,637 - validation_collectors - INFO - stored valid swift code bank details into file - 66277
+2022-10-04 14:03:56,637 - validation_collectors - INFO - compeleted performance - 66277
+2022-10-04 14:10:47,936 - validation_collectors - INFO - creating validators instance - 68155
+2022-10-04 14:10:47,936 - validation_collectors.validators - INFO - requirments are initlizing - 68155
+2022-10-04 14:10:47,936 - validation_collectors - INFO - initlized and created instance - 68155
+2022-10-04 14:10:47,937 - validation_collectors - INFO - getting all bank details and performing to stor in file - 68155
+2022-10-04 14:10:47,937 - validation_collectors.validators - INFO - geting bank details from Bank API - 68155
+2022-10-04 14:10:51,442 - validation_collectors.validators - INFO - All Bank Data stored in file - 68155
+2022-10-04 14:10:51,442 - validation_collectors - INFO - response stored in file - 68155
+2022-10-04 14:10:51,442 - validation_collectors - INFO - requesting all banks name - 68155
+2022-10-04 14:10:51,442 - validation_collectors - INFO - stored response into file - 68155
+2022-10-04 14:10:51,442 - validation_collectors - INFO - requsting and checking iban number validation - 68155
+2022-10-04 14:10:51,442 - validation_collectors - INFO - stored valid iban bank details into file - 68155
+2022-10-04 14:10:51,443 - validation_collectors - INFO - Checking swift code is valid or not  - 68155
+2022-10-04 14:10:51,443 - validation_collectors - INFO - stored valid swift code bank details into file - 68155
+2022-10-04 14:10:51,443 - validation_collectors - INFO - compeleted performance - 68155
+2022-10-05 12:43:08,836 - validation_collectors - INFO - creating validators instance - 25945
+2022-10-05 12:43:08,836 - validation_collectors.validators - INFO - requirments are initlizing - 25945
+2022-10-05 12:43:08,836 - validation_collectors - INFO - initlized and created instance - 25945
+2022-10-05 12:43:08,836 - validation_collectors - INFO - getting all bank details and performing to stor in file - 25945
+2022-10-05 12:43:08,836 - validation_collectors.validators - INFO - geting bank details from Bank API - 25945
+2022-10-05 12:43:12,454 - validation_collectors.validators - INFO - All Bank Data stored in file - 25945
+2022-10-05 12:43:12,454 - validation_collectors - INFO - response stored in file - 25945
+2022-10-05 12:43:12,454 - validation_collectors - INFO - requesting all banks name - 25945
+2022-10-05 12:43:13,274 - validation_collectors - INFO - stored response into file - 25945
+2022-10-05 12:43:13,274 - validation_collectors - INFO - requsting and checking iban number validation - 25945
+2022-10-05 12:44:19,367 - validation_collectors - INFO - creating validators instance - 26146
+2022-10-05 12:44:19,367 - validation_collectors.validators - INFO - requirments are initlizing - 26146
+2022-10-05 12:44:19,367 - validation_collectors - INFO - initlized and created instance - 26146
+2022-10-05 12:44:19,367 - validation_collectors - INFO - getting all bank details and performing to stor in file - 26146
+2022-10-05 12:44:19,368 - validation_collectors.validators - INFO - geting bank details from Bank API - 26146
+2022-10-05 12:44:21,874 - validation_collectors.validators - INFO - All Bank Data stored in file - 26146
+2022-10-05 12:44:21,874 - validation_collectors - INFO - response stored in file - 26146
+2022-10-05 12:44:21,874 - validation_collectors - INFO - requesting all banks name - 26146
+2022-10-05 12:44:22,691 - validation_collectors - INFO - stored response into file - 26146
+2022-10-05 12:44:22,691 - validation_collectors - INFO - requsting and checking iban number validation - 26146
+2022-10-05 12:44:23,506 - validation_collectors.validators - ERROR - the JSON object must be str, bytes or bytearray, not dict - 26146
+2022-10-05 12:44:23,506 - validation_collectors - INFO - stored valid iban bank details into file - 26146
+2022-10-05 12:44:23,506 - validation_collectors - INFO - Checking swift code is valid or not  - 26146
+2022-10-05 12:44:24,325 - validation_collectors.validators - INFO - the JSON object must be str, bytes or bytearray, not dict - 26146
+2022-10-05 12:44:24,325 - validation_collectors - INFO - stored valid swift code bank details into file - 26146
+2022-10-05 12:44:24,325 - validation_collectors - INFO - compeleted performance - 26146
+2022-10-05 12:45:09,779 - validation_collectors - INFO - creating validators instance - 26275
+2022-10-05 12:45:09,779 - validation_collectors.validators - INFO - requirments are initlizing - 26275
+2022-10-05 12:45:09,779 - validation_collectors - INFO - initlized and created instance - 26275
+2022-10-05 12:45:09,779 - validation_collectors - INFO - getting all bank details and performing to stor in file - 26275
+2022-10-05 12:45:09,779 - validation_collectors.validators - INFO - geting bank details from Bank API - 26275
+2022-10-05 12:45:10,809 - validation_collectors.validators - INFO - All Bank Data stored in file - 26275
+2022-10-05 12:45:10,810 - validation_collectors - INFO - response stored in file - 26275
+2022-10-05 12:45:10,810 - validation_collectors - INFO - requesting all banks name - 26275
+2022-10-05 12:45:11,832 - validation_collectors - INFO - stored response into file - 26275
+2022-10-05 12:45:11,832 - validation_collectors - INFO - requsting and checking iban number validation - 26275
+2022-10-05 12:45:12,642 - validation_collectors - INFO - stored valid iban bank details into file - 26275
+2022-10-05 12:45:12,642 - validation_collectors - INFO - Checking swift code is valid or not  - 26275
+2022-10-05 12:45:13,569 - validation_collectors - INFO - stored valid swift code bank details into file - 26275
+2022-10-05 12:45:13,570 - validation_collectors - INFO - compeleted performance - 26275
+2022-10-06 09:42:24,459 - validation_collectors - INFO - creating validators instance - 9664
+2022-10-06 09:42:24,459 - validation_collectors.validators - INFO - requirments are initlizing - 9664
+2022-10-06 09:42:24,459 - validation_collectors - INFO - initlized and created instance - 9664
+2022-10-06 09:42:24,459 - validation_collectors - INFO - getting all bank details and performing to stor in file - 9664
+2022-10-06 09:42:24,459 - validation_collectors.validators - INFO - geting bank details from Bank API - 9664
+2022-10-06 09:44:01,948 - validation_collectors - INFO - creating validators instance - 9922
+2022-10-06 09:44:01,949 - validation_collectors.validators - INFO - requirments are initlizing - 9922
+2022-10-06 09:44:01,949 - validation_collectors - INFO - initlized and created instance - 9922
+2022-10-06 09:44:01,949 - validation_collectors - INFO - getting all bank details and performing to stor in file - 9922
+2022-10-06 09:44:01,949 - validation_collectors - INFO - response stored in file - 9922
+2022-10-06 09:44:01,949 - validation_collectors - INFO - requesting all banks name - 9922
+2022-10-06 09:46:12,408 - validation_collectors - INFO - creating validators instance - 10152
+2022-10-06 09:46:12,408 - validation_collectors.validators - INFO - requirments are initlizing - 10152
+2022-10-06 09:46:12,408 - validation_collectors - INFO - initlized and created instance - 10152
+2022-10-06 09:46:12,408 - validation_collectors - INFO - getting all bank details and performing to stor in file - 10152
+2022-10-06 09:46:12,408 - validation_collectors - INFO - response stored in file - 10152
+2022-10-06 09:46:12,408 - validation_collectors - INFO - requesting all banks name - 10152
+2022-10-06 09:46:12,408 - validation_collectors - INFO - stored response into file - 10152
+2022-10-06 09:46:12,408 - validation_collectors - INFO - requsting and checking iban number validation - 10152
+2022-10-07 09:39:21,543 - validation_collectors - INFO - creating validators instance - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - initlized and created instance - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - getting all bank details and performing to stor in file - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - response stored in file - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - requesting all banks name - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - stored response into file - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - requsting and checking iban number validation - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - stored valid iban bank details into file - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - Checking swift code is valid or not  - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - stored valid swift code bank details into file - 7367
+2022-10-07 09:39:21,543 - validation_collectors - INFO - compeleted performance - 7367
+2022-10-07 09:54:18,659 - validation_collectors - INFO - creating validators instance - 8455
+2022-10-07 09:54:18,659 - validation_collectors.validators - INFO - requirments are initlizing - 8455
+2022-10-07 09:54:18,659 - validation_collectors - INFO - initlized and created instance - 8455
+2022-10-07 09:54:18,659 - validation_collectors - INFO - getting all bank details and performing to stor in file - 8455
+2022-10-07 09:54:18,659 - validation_collectors - INFO - response stored in file - 8455
+2022-10-07 09:54:18,659 - validation_collectors - INFO - requesting all banks name - 8455
+2022-10-07 09:54:18,659 - validation_collectors - INFO - stored response into file - 8455
+2022-10-07 09:54:18,659 - validation_collectors - INFO - requsting and checking iban number validation - 8455
+2022-10-07 09:55:08,657 - validation_collectors - INFO - creating validators instance - 8555
+2022-10-07 09:55:08,657 - validation_collectors.validators - INFO - requirments are initlizing - 8555
+2022-10-07 09:55:08,657 - validation_collectors - INFO - initlized and created instance - 8555
+2022-10-07 09:55:08,657 - validation_collectors - INFO - getting all bank details and performing to stor in file - 8555
+2022-10-07 09:55:08,657 - validation_collectors - INFO - response stored in file - 8555
+2022-10-07 09:55:08,657 - validation_collectors - INFO - requesting all banks name - 8555
+2022-10-07 09:55:08,657 - validation_collectors - INFO - stored response into file - 8555
+2022-10-07 09:55:08,657 - validation_collectors - INFO - requsting and checking iban number validation - 8555
+2022-10-07 09:55:12,725 - validation_collectors.validators - ERROR - TextIOWrapper.write() takes no keyword arguments - 8555
+2022-10-07 09:55:12,725 - validation_collectors - INFO - stored valid iban bank details into file - 8555
+2022-10-07 09:55:12,725 - validation_collectors - INFO - Checking swift code is valid or not  - 8555
+2022-10-07 09:55:12,725 - validation_collectors - INFO - stored valid swift code bank details into file - 8555
+2022-10-07 09:55:12,725 - validation_collectors - INFO - compeleted performance - 8555
+2022-10-07 09:55:47,571 - validation_collectors - INFO - creating validators instance - 8643
+2022-10-07 09:55:47,571 - validation_collectors.validators - INFO - requirments are initlizing - 8643
+2022-10-07 09:55:47,571 - validation_collectors - INFO - initlized and created instance - 8643
+2022-10-07 09:55:47,571 - validation_collectors - INFO - getting all bank details and performing to stor in file - 8643
+2022-10-07 09:55:47,571 - validation_collectors - INFO - response stored in file - 8643
+2022-10-07 09:55:47,571 - validation_collectors - INFO - requesting all banks name - 8643
+2022-10-07 09:55:47,571 - validation_collectors - INFO - stored response into file - 8643
+2022-10-07 09:55:47,571 - validation_collectors - INFO - requsting and checking iban number validation - 8643
+2022-10-07 09:55:48,317 - validation_collectors.validators - ERROR - TextIOWrapper.write() takes no keyword arguments - 8643
+2022-10-07 09:55:48,317 - validation_collectors - INFO - stored valid iban bank details into file - 8643
+2022-10-07 09:55:48,317 - validation_collectors - INFO - Checking swift code is valid or not  - 8643
+2022-10-07 09:55:48,317 - validation_collectors - INFO - stored valid swift code bank details into file - 8643
+2022-10-07 09:55:48,317 - validation_collectors - INFO - compeleted performance - 8643
+2022-10-07 10:00:11,478 - validation_collectors - INFO - creating validators instance - 9497
+2022-10-07 10:00:11,478 - validation_collectors.validators - INFO - requirments are initlizing - 9497
+2022-10-07 10:00:11,478 - validation_collectors - INFO - initlized and created instance - 9497
+2022-10-07 10:00:11,478 - validation_collectors - INFO - getting all bank details and performing to stor in file - 9497
+2022-10-07 10:00:11,478 - validation_collectors - INFO - response stored in file - 9497
+2022-10-07 10:00:11,478 - validation_collectors - INFO - requesting all banks name - 9497
+2022-10-07 10:00:11,478 - validation_collectors - INFO - stored response into file - 9497
+2022-10-07 10:00:11,478 - validation_collectors - INFO - requsting and checking iban number validation - 9497
+2022-10-07 10:00:14,044 - validation_collectors.validators - ERROR - TextIOWrapper.write() takes no keyword arguments - 9497
+2022-10-07 10:00:14,044 - validation_collectors - INFO - stored valid iban bank details into file - 9497
+2022-10-07 10:00:14,044 - validation_collectors - INFO - Checking swift code is valid or not  - 9497
+2022-10-07 10:00:14,044 - validation_collectors - INFO - stored valid swift code bank details into file - 9497
+2022-10-07 10:00:14,044 - validation_collectors - INFO - compeleted performance - 9497
+2022-10-07 10:01:02,156 - validation_collectors - INFO - creating validators instance - 9657
+2022-10-07 10:01:02,157 - validation_collectors.validators - INFO - requirments are initlizing - 9657
+2022-10-07 10:01:02,157 - validation_collectors - INFO - initlized and created instance - 9657
+2022-10-07 10:01:02,157 - validation_collectors - INFO - getting all bank details and performing to stor in file - 9657
+2022-10-07 10:01:02,157 - validation_collectors - INFO - response stored in file - 9657
+2022-10-07 10:01:02,157 - validation_collectors - INFO - requesting all banks name - 9657
+2022-10-07 10:01:02,157 - validation_collectors - INFO - stored response into file - 9657
+2022-10-07 10:01:02,157 - validation_collectors - INFO - requsting and checking iban number validation - 9657
+2022-10-07 10:01:30,905 - validation_collectors - INFO - creating validators instance - 9829
+2022-10-07 10:01:30,905 - validation_collectors.validators - INFO - requirments are initlizing - 9829
+2022-10-07 10:01:30,905 - validation_collectors - INFO - initlized and created instance - 9829
+2022-10-07 10:01:30,905 - validation_collectors - INFO - getting all bank details and performing to stor in file - 9829
+2022-10-07 10:01:30,905 - validation_collectors - INFO - response stored in file - 9829
+2022-10-07 10:01:30,905 - validation_collectors - INFO - requesting all banks name - 9829
+2022-10-07 10:01:30,905 - validation_collectors - INFO - stored response into file - 9829
+2022-10-07 10:01:30,905 - validation_collectors - INFO - requsting and checking iban number validation - 9829
+2022-10-07 10:01:31,642 - validation_collectors.validators - ERROR - TextIOWrapper.write() takes no keyword arguments - 9829
+2022-10-07 10:01:31,642 - validation_collectors - INFO - stored valid iban bank details into file - 9829
+2022-10-07 10:01:31,642 - validation_collectors - INFO - Checking swift code is valid or not  - 9829
+2022-10-07 10:01:31,642 - validation_collectors - INFO - stored valid swift code bank details into file - 9829
+2022-10-07 10:01:31,642 - validation_collectors - INFO - compeleted performance - 9829
+2022-10-07 10:01:49,622 - validation_collectors - INFO - creating validators instance - 9896
+2022-10-07 10:01:49,622 - validation_collectors.validators - INFO - requirments are initlizing - 9896
+2022-10-07 10:01:49,622 - validation_collectors - INFO - initlized and created instance - 9896
+2022-10-07 10:01:49,622 - validation_collectors - INFO - getting all bank details and performing to stor in file - 9896
+2022-10-07 10:01:49,622 - validation_collectors - INFO - response stored in file - 9896
+2022-10-07 10:01:49,622 - validation_collectors - INFO - requesting all banks name - 9896
+2022-10-07 10:01:49,622 - validation_collectors - INFO - stored response into file - 9896
+2022-10-07 10:01:49,622 - validation_collectors - INFO - requsting and checking iban number validation - 9896
+2022-10-07 10:01:50,411 - validation_collectors.validators - ERROR - TextIOWrapper.write() takes no keyword arguments - 9896
+2022-10-07 10:01:50,411 - validation_collectors - INFO - stored valid iban bank details into file - 9896
+2022-10-07 10:01:50,411 - validation_collectors - INFO - Checking swift code is valid or not  - 9896
+2022-10-07 10:01:50,411 - validation_collectors - INFO - stored valid swift code bank details into file - 9896
+2022-10-07 10:01:50,411 - validation_collectors - INFO - compeleted performance - 9896
+2022-10-07 10:03:55,099 - validation_collectors - INFO - creating validators instance - 10306
+2022-10-07 10:03:55,099 - validation_collectors.validators - INFO - requirments are initlizing - 10306
+2022-10-07 10:03:55,099 - validation_collectors - INFO - initlized and created instance - 10306
+2022-10-07 10:03:55,099 - validation_collectors - INFO - getting all bank details and performing to stor in file - 10306
+2022-10-07 10:03:55,099 - validation_collectors - INFO - response stored in file - 10306
+2022-10-07 10:03:55,099 - validation_collectors - INFO - requesting all banks name - 10306
+2022-10-07 10:03:55,099 - validation_collectors - INFO - stored response into file - 10306
+2022-10-07 10:03:55,099 - validation_collectors - INFO - requsting and checking iban number validation - 10306
+2022-10-07 10:03:55,917 - validation_collectors.validators - INFO - [Errno 2] No such file or directory: 'data_files/iban_validation/GB33BUKB20201555555555.json' - 10306
+2022-10-07 10:03:55,917 - validation_collectors - INFO - stored valid iban bank details into file - 10306
+2022-10-07 10:03:55,917 - validation_collectors - INFO - Checking swift code is valid or not  - 10306
+2022-10-07 10:03:55,917 - validation_collectors - INFO - stored valid swift code bank details into file - 10306
+2022-10-07 10:03:55,917 - validation_collectors - INFO - compeleted performance - 10306
+2022-10-07 10:05:21,036 - validation_collectors - INFO - creating validators instance - 10519
+2022-10-07 10:05:21,036 - validation_collectors.validators - INFO - requirments are initlizing - 10519
+2022-10-07 10:05:21,036 - validation_collectors - INFO - initlized and created instance - 10519
+2022-10-07 10:05:21,036 - validation_collectors - INFO - getting all bank details and performing to stor in file - 10519
+2022-10-07 10:05:21,036 - validation_collectors - INFO - response stored in file - 10519
+2022-10-07 10:05:21,036 - validation_collectors - INFO - requesting all banks name - 10519
+2022-10-07 10:05:21,036 - validation_collectors - INFO - stored response into file - 10519
+2022-10-07 10:05:21,036 - validation_collectors - INFO - requsting and checking iban number validation - 10519
+2022-10-07 10:05:21,931 - validation_collectors - INFO - stored valid iban bank details into file - 10519
+2022-10-07 10:05:21,931 - validation_collectors - INFO - Checking swift code is valid or not  - 10519
+2022-10-07 10:05:21,931 - validation_collectors - INFO - stored valid swift code bank details into file - 10519
+2022-10-07 10:05:21,931 - validation_collectors - INFO - compeleted performance - 10519
+2022-10-07 10:05:31,393 - validation_collectors - INFO - creating validators instance - 10589
+2022-10-07 10:05:31,393 - validation_collectors.validators - INFO - requirments are initlizing - 10589
+2022-10-07 10:05:31,393 - validation_collectors - INFO - initlized and created instance - 10589
+2022-10-07 10:05:31,393 - validation_collectors - INFO - getting all bank details and performing to stor in file - 10589
+2022-10-07 10:05:31,393 - validation_collectors - INFO - response stored in file - 10589
+2022-10-07 10:05:31,393 - validation_collectors - INFO - requesting all banks name - 10589
+2022-10-07 10:05:31,393 - validation_collectors - INFO - stored response into file - 10589
+2022-10-07 10:05:31,393 - validation_collectors - INFO - requsting and checking iban number validation - 10589
+2022-10-07 10:05:32,172 - validation_collectors - INFO - stored valid iban bank details into file - 10589
+2022-10-07 10:05:32,172 - validation_collectors - INFO - Checking swift code is valid or not  - 10589
+2022-10-07 10:05:32,172 - validation_collectors - INFO - stored valid swift code bank details into file - 10589
+2022-10-07 10:05:32,172 - validation_collectors - INFO - compeleted performance - 10589
+2022-10-07 10:05:44,464 - validation_collectors - INFO - creating validators instance - 10644
+2022-10-07 10:05:44,464 - validation_collectors.validators - INFO - requirments are initlizing - 10644
+2022-10-07 10:05:44,464 - validation_collectors - INFO - initlized and created instance - 10644
+2022-10-07 10:05:44,464 - validation_collectors - INFO - getting all bank details and performing to stor in file - 10644
+2022-10-07 10:05:44,464 - validation_collectors - INFO - response stored in file - 10644
+2022-10-07 10:05:44,464 - validation_collectors - INFO - requesting all banks name - 10644
+2022-10-07 10:05:44,464 - validation_collectors - INFO - stored response into file - 10644
+2022-10-07 10:05:44,464 - validation_collectors - INFO - requsting and checking iban number validation - 10644
+2022-10-07 10:05:46,311 - validation_collectors - INFO - stored valid iban bank details into file - 10644
+2022-10-07 10:05:46,311 - validation_collectors - INFO - Checking swift code is valid or not  - 10644
+2022-10-07 10:05:46,311 - validation_collectors - INFO - stored valid swift code bank details into file - 10644
+2022-10-07 10:05:46,311 - validation_collectors - INFO - compeleted performance - 10644
+2022-10-07 10:16:39,931 - validation_collectors - INFO - creating validators instance - 12721
+2022-10-07 10:16:39,931 - validation_collectors.validators - INFO - requirments are initlizing - 12721
+2022-10-07 10:16:39,931 - validation_collectors - INFO - initlized and created instance - 12721
+2022-10-07 10:16:39,931 - validation_collectors - INFO - getting all bank details and performing to stor in file - 12721
+2022-10-07 10:16:39,931 - validation_collectors - INFO - response stored in file - 12721
+2022-10-07 10:16:39,931 - validation_collectors - INFO - requesting all banks name - 12721
+2022-10-07 10:16:39,931 - validation_collectors - INFO - stored response into file - 12721
+2022-10-07 10:16:39,931 - validation_collectors - INFO - requsting and checking iban number validation - 12721
+2022-10-07 10:16:40,707 - validation_collectors - INFO - stored valid iban bank details into file - 12721
+2022-10-07 10:16:40,707 - validation_collectors - INFO - Checking swift code is valid or not  - 12721
+2022-10-07 10:16:40,707 - validation_collectors - INFO - stored valid swift code bank details into file - 12721
+2022-10-07 10:16:40,707 - validation_collectors - INFO - compeleted performance - 12721
+2022-10-07 11:04:55,267 - validation_collectors - INFO - creating validators instance - 21007
+2022-10-07 11:04:55,268 - validation_collectors.validators - INFO - requirments are initlizing - 21007
+2022-10-07 11:04:55,268 - validation_collectors - INFO - initlized and created instance - 21007
+2022-10-07 11:04:55,268 - validation_collectors - INFO - getting all bank details and performing to stor in file - 21007
+2022-10-07 11:04:55,268 - validation_collectors - INFO - response stored in file - 21007
+2022-10-07 11:04:55,268 - validation_collectors - INFO - requesting all banks name - 21007
+2022-10-07 11:04:55,268 - validation_collectors - INFO - stored response into file - 21007
+2022-10-07 11:04:55,268 - validation_collectors - INFO - requsting and checking iban number validation - 21007
+2022-10-07 11:04:59,330 - validation_collectors - INFO - stored valid iban bank details into file - 21007
+2022-10-07 11:04:59,330 - validation_collectors - INFO - Checking swift code is valid or not  - 21007
+2022-10-07 11:04:59,330 - validation_collectors - INFO - stored valid swift code bank details into file - 21007
+2022-10-07 11:04:59,330 - validation_collectors - INFO - compeleted performance - 21007
+2022-10-07 12:43:09,840 - validation_collectors - INFO - creating validators instance - 33385
+2022-10-07 12:43:09,840 - validation_collectors.validators - INFO - requirments are initlizing - 33385
+2022-10-07 12:43:09,840 - validation_collectors - INFO - initlized and created instance - 33385
+2022-10-07 12:43:09,840 - validation_collectors - INFO - getting all bank details and performing to stor in file - 33385
+2022-10-07 12:43:09,840 - validation_collectors.validators - INFO - geting bank details from Bank API - 33385
+2022-10-07 12:44:35,042 - validation_collectors - INFO - creating validators instance - 33577
+2022-10-07 12:44:35,042 - validation_collectors.validators - INFO - requirments are initlizing - 33577
+2022-10-07 12:44:35,042 - validation_collectors - INFO - initlized and created instance - 33577
+2022-10-07 12:44:35,042 - validation_collectors - INFO - getting all bank details and performing to stor in file - 33577
+2022-10-07 12:44:35,042 - validation_collectors.validators - INFO - geting bank details from Bank API - 33577
+2022-10-07 12:44:41,174 - validation_collectors.validators - INFO - All Bank Data stored in file - 33577
+2022-10-07 12:44:41,174 - validation_collectors - INFO - response stored in file - 33577
+2022-10-07 13:24:02,043 - validation_collectors - INFO - creating validators instance - 38204
+2022-10-07 13:24:02,044 - validation_collectors.validators - INFO - requirments are initlizing - 38204
+2022-10-07 13:24:02,044 - validation_collectors - INFO - initlized and created instance - 38204
+2022-10-07 13:24:02,044 - validation_collectors - INFO - getting all bank details and performing to stor in file - 38204
+2022-10-07 13:24:02,044 - validation_collectors.validators - INFO - geting bank details from Bank API - 38204
+2022-10-07 13:24:44,704 - validation_collectors - INFO - creating validators instance - 38283
+2022-10-07 13:24:44,704 - validation_collectors.validators - INFO - requirments are initlizing - 38283
+2022-10-07 13:24:44,704 - validation_collectors - INFO - initlized and created instance - 38283
+2022-10-07 13:24:44,704 - validation_collectors - INFO - getting all bank details and performing to stor in file - 38283
+2022-10-07 13:24:44,704 - validation_collectors.validators - INFO - geting bank details from Bank API - 38283
+2022-10-07 13:24:45,492 - validation_collectors.validators - INFO - All Bank Data stored in file - 38283
+2022-10-07 13:24:45,492 - validation_collectors - INFO - response stored in file - 38283
+2022-10-08 19:40:55,082 - validation_collectors - INFO - creating validators instance - 28143
+2022-10-08 19:40:55,082 - validation_collectors.validators - INFO - requirements are initializing - 28143
+2022-10-08 19:40:55,082 - validation_collectors - INFO - initlized and created instance - 28143
+2022-10-08 19:40:55,082 - validation_collectors - INFO - getting all bank details and performing to stor in file - 28143
+2022-10-08 19:40:55,082 - validation_collectors.validators - INFO - getting bank details from Bank API - 28143
+2022-10-08 19:40:56,532 - validation_collectors.validators - INFO - All Bank Data stored in file - 28143
+2022-10-08 19:40:56,533 - validation_collectors - INFO - response stored in file - 28143
+2022-10-08 19:40:56,533 - validation_collectors - INFO - requesting all banks name - 28143
+2022-10-08 19:40:57,350 - validation_collectors - INFO - stored response into file - 28143
+2022-10-08 19:40:57,350 - validation_collectors - INFO - requsting and checking iban number validation - 28143
+2022-10-08 19:40:58,681 - validation_collectors.validators - INFO - [Errno 2] No such file or directory: 'src/data_files/iban_validation/GB33BUKB20201555555555.json' - 28143
+2022-10-08 19:40:58,681 - validation_collectors - INFO - stored valid iban bank details into file - 28143
+2022-10-08 19:40:58,681 - validation_collectors - INFO - Checking swift code is valid or not  - 28143
+2022-10-08 19:40:59,398 - validation_collectors - INFO - stored valid swift code bank details into file - 28143
+2022-10-08 19:40:59,398 - validation_collectors - INFO - appliction runing  successfully - 28143
+2022-10-09 10:38:11,328 - validation_collectors - INFO - creating validators instance - 19074
+2022-10-09 10:38:11,328 - validation_collectors.validators - INFO - requirements are initializing - 19074
+2022-10-09 10:38:11,328 - validation_collectors - INFO - initlized and created instance - 19074
+2022-10-09 10:38:11,328 - validation_collectors - INFO - getting all bank details and performing to stor in file - 19074
+2022-10-09 10:38:11,328 - validation_collectors.validators - INFO - getting bank details from Bank API - 19074
+2022-10-09 10:38:15,375 - validation_collectors.validators - INFO - All Bank Data stored in file - 19074
+2022-10-09 10:38:15,375 - validation_collectors - INFO - response stored in file - 19074
+2022-10-09 10:38:15,375 - validation_collectors - INFO - requesting all banks name - 19074
+2022-10-09 10:38:16,194 - validation_collectors - INFO - stored response into file - 19074
+2022-10-09 10:38:16,195 - validation_collectors - INFO - requsting and checking iban number validation - 19074
+2022-10-09 10:38:17,217 - validation_collectors.validators - INFO - [Errno 2] No such file or directory: 'src/data_files/iban_validation/GB33BUKB20201555555555.json' - 19074
+2022-10-09 10:38:17,217 - validation_collectors - INFO - stored valid iban bank details into file - 19074
+2022-10-09 10:38:17,217 - validation_collectors - INFO - Checking swift code is valid or not  - 19074
+2022-10-09 10:38:17,934 - validation_collectors - INFO - stored valid swift code bank details into file - 19074
+2022-10-09 10:38:17,935 - validation_collectors - INFO - appliction runing  successfully - 19074
+2022-10-09 10:41:01,887 - validation_collectors - INFO - creating validators instance - 19746
+2022-10-09 10:41:01,887 - validation_collectors.validators - INFO - requirements are initializing - 19746
+2022-10-09 10:41:01,887 - validation_collectors - INFO - initlized and created instance - 19746
+2022-10-09 10:41:01,887 - validation_collectors - INFO - getting all bank details and performing to stor in file - 19746
+2022-10-09 10:41:01,887 - validation_collectors.validators - INFO - getting bank details from Bank API - 19746
+2022-10-09 10:41:02,706 - validation_collectors.validators - INFO - All Bank Data stored in file - 19746
+2022-10-09 10:41:02,706 - validation_collectors - INFO - response stored in file - 19746
+2022-10-09 10:41:02,706 - validation_collectors - INFO - requesting all banks name - 19746
+2022-10-09 10:41:03,404 - validation_collectors - INFO - stored response into file - 19746
+2022-10-09 10:41:03,404 - validation_collectors - INFO - requsting and checking iban number validation - 19746
+2022-10-09 10:41:04,433 - validation_collectors - INFO - stored valid iban bank details into file - 19746
+2022-10-09 10:41:04,433 - validation_collectors - INFO - Checking swift code is valid or not  - 19746
+2022-10-09 10:41:05,149 - validation_collectors - INFO - stored valid swift code bank details into file - 19746
+2022-10-09 10:41:05,149 - validation_collectors - INFO - appliction runing  successfully - 19746
+2022-10-09 10:41:42,731 - validation_collectors - INFO - creating validators instance - 19875
+2022-10-09 10:41:42,731 - validation_collectors.validators - INFO - requirements are initializing - 19875
+2022-10-09 10:41:42,731 - validation_collectors - INFO - initlized and created instance - 19875
+2022-10-09 10:41:42,731 - validation_collectors - INFO - getting all bank details and performing to stor in file - 19875
+2022-10-09 10:41:42,731 - validation_collectors.validators - INFO - getting bank details from Bank API - 19875
+2022-10-09 10:41:43,549 - validation_collectors.validators - INFO - All Bank Data stored in file - 19875
+2022-10-09 10:41:43,549 - validation_collectors - INFO - response stored in file - 19875
+2022-10-09 10:41:43,549 - validation_collectors - INFO - requesting all banks name - 19875
+2022-10-09 10:41:44,573 - validation_collectors - INFO - stored response into file - 19875
+2022-10-09 10:41:44,573 - validation_collectors - INFO - requsting and checking iban number validation - 19875
+2022-10-09 10:41:45,570 - validation_collectors - INFO - stored valid iban bank details into file - 19875
+2022-10-09 10:41:45,570 - validation_collectors - INFO - Checking swift code is valid or not  - 19875
+2022-10-09 10:41:46,211 - validation_collectors - INFO - stored valid swift code bank details into file - 19875
+2022-10-09 10:41:46,211 - validation_collectors - INFO - appliction runing  successfully - 19875
+2022-10-09 10:56:41,456 - validation_collectors - INFO - creating validators instance - 23406
+2022-10-09 10:56:41,456 - validation_collectors.validators - INFO - requirements are initializing - 23406
+2022-10-09 10:56:41,456 - validation_collectors - INFO - initlized and created instance - 23406
+2022-10-09 10:56:41,456 - validation_collectors - INFO - getting all bank details and performing to stor in file - 23406
+2022-10-09 10:56:41,456 - validation_collectors.validators - INFO - getting bank details from Bank API - 23406
+2022-10-09 10:56:42,455 - validation_collectors.validators - INFO - All Bank Data stored in file - 23406
+2022-10-09 10:56:42,456 - validation_collectors - INFO - response stored in file - 23406
+2022-10-09 10:56:42,456 - validation_collectors - INFO - requesting all banks name - 23406
+2022-10-09 10:56:43,244 - validation_collectors - INFO - stored response into file - 23406
+2022-10-09 10:56:43,244 - validation_collectors - INFO - requsting and checking iban number validation - 23406
+2022-10-09 10:56:44,268 - validation_collectors - INFO - stored valid iban bank details into file - 23406
+2022-10-09 10:56:44,268 - validation_collectors - INFO - Checking swift code is valid or not  - 23406
+2022-10-09 10:56:46,521 - validation_collectors - INFO - stored valid swift code bank details into file - 23406
+2022-10-09 10:56:46,521 - validation_collectors - INFO - appliction runing  successfully - 23406
