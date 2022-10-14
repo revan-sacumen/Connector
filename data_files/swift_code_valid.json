@@ -58,8 +58,7 @@
         "location_code": "AD"
     },
     "valid": true
-}
-{
+}{
     "bank_data": {
         "address": "",
         "bank_code": "",
@@ -79,8 +78,27 @@
         "location_code": "AD"
     },
     "valid": true
-}
-{
+}{
+    "bank_data": {
+        "address": "",
+        "bank_code": "",
+        "branch": "ANDORRA GESTIO AGRICOL REIG SAU, ESCALDES-ENGORDANY",
+        "city": "ESCALDES-ENGORDANY",
+        "country": "Andorra",
+        "country_code": "AD",
+        "name": "ANDORRA GESTIO AGRICOL REIG SAU",
+        "zip": ""
+    },
+    "swift": "AAMAADAD",
+    "swift_data": {
+        "bank": "AAMA",
+        "branch_code": "",
+        "code_status": true,
+        "country_code": "AD",
+        "location_code": "AD"
+    },
+    "valid": true
+}{
     "bank_data": {
         "address": "",
         "bank_code": "",

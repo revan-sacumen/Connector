@@ -4,16 +4,13 @@ import sys
 
 from dotenv import load_dotenv  # type: ignore
 
-from src.main import MainValidator  # type: ignore
+from bank_validator import BankValidation
 
 sys.path.extend('./src')  # type: ignore
 
 load_dotenv()
-
-load_dotenv()
 API_KEY = os.getenv("API_KEY")
-API_URL = os.getenv("URL")
-obj_main = MainValidator(API_URL, API_KEY)
+obj_main = BankValidation(API_KEY)
 
 
 def test_bank_details_response():

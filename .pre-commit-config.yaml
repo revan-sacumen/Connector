@@ -63,7 +63,3 @@ repos:
     rev: 'v0.981'  # Use the sha / tag you want to point at
     hooks:
       - id: mypy
-        types: [python]
-        verbose: true
-        args: [--show-error-codes]
-        additional_dependencies: ['types-requests']

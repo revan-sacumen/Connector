@@ -1,19 +1,17 @@
-"""Here this module will each method operation will happen here."""
+"""collector validation."""
 import logging
 import os
 import sys
 
-import requests
-from dotenv import load_dotenv  # type: ignore
+from dotenv import load_dotenv
+from sac_requests.context.request import Response
 
-from src.config_file import get_config_data  # type: ignore
-from src.validation import Validators  # type: ignore
+from src.utlity import PATH_QUERY
+from src.validation import Validators
 
 sys.path.extend('./src')  # type: ignore
 
-
 load_dotenv()
-URL = str(os.getenv("URL"))
 API_KEY = str(os.getenv("API_KEY"))
 
 # creating loggers name for saving logs parents files
@@ -40,74 +38,82 @@ logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
 
-class MainValidator:
+class BankValidation:
     """Providing parameters and path and getting saved response."""
 
-    def __init__(self, url, api_key):
+    def __init__(self, api_key):
         """Initialize of main Validators module."""
-        self.vali_obj = Validators(url=url, api_key=api_key)
+        self.path_query = PATH_QUERY
+        self.vali_obj = Validators(api_key=api_key)
 
-    def send_request_bank_details(self) -> requests.Response:
+    def send_request_bank_details(self) -> Response:
         """Provide path and parameters function.
 
         return:
             response: returning response.
         """
-        logger.info("getting all bank details and performing to stor in file")
-        bank_detail = get_config_data()
+        logger.info("Providing required parameter to get all bank details.")
+        bank_detail = PATH_QUERY
+        query = bank_detail["search_bank"]
         path = bank_detail["all_banks"]["path"]
         param = bank_detail["all_banks"]["param"]['page']
-        bank_method_response = self.vali_obj.bank_details(path=path, param=param)
-        logger.info("response stored in file")
+        bank_method_response = self.vali_obj.bank_details(path=path, query=query, param=param)
+        logger.info("Getting bank details response.")
         return bank_method_response
 
-    def send_request_bank_name(self) -> requests.Response:
+    def send_request_bank_name(self) -> Response:
         """Provide path and parameters function.
 
         return:
             response: returning response.
         """
-        logger.info("requesting all banks name")
-        # Bank name function calling.
-        bank_name = get_config_data()
+        logger.info("Passing the parameter to getting response.")
+        # Bank name function.
+        bank_name = PATH_QUERY
         path = bank_name["Banks_by_name"]["path"]
+        query = bank_name["search_country_code"]
         param = bank_name["Banks_by_name"]["param"]["country_code"]
-        bank_name_method_response = self.vali_obj.banks_names(path=path, param=param)
-        logger.info('stored response into file')
+        bank_name_method_response = self.vali_obj.banks_names(path=path, query=query, param=param)
+        logger.info("Parameter sent and response got")
         return bank_name_method_response
 
-    def send_request_bank_iban_number(self) -> requests.Response:
+    def send_request_bank_iban_number(self):
         """Provide path and parameters function.
 
         return:
             response: returning response.
         """
-        logger.info("requesting and checking iban number validation")
+        logger.info("Passing required parameter to validate iban number to getting response")
         # Iban function calling.
-        iban_number = get_config_data()
+        iban_number = PATH_QUERY
         path = iban_number["iban_checks"]["path"]
+        query = iban_number["search_iban_number"]
         param = iban_number["iban_checks"]["param"]["iban_number"]
-        iban_method_response = self.vali_obj.bank_iban_validation(path=path, param=param)
-        logger.info("stored valid iban bank details into file")
+        iban_method_response = self.vali_obj.bank_iban_validation(path=path, query=query, param=param)
+        logger.info("Bank  Iban Response got.")
         return iban_method_response
 
-    def send_request_bank_swift_code(self) -> requests.Response:
+    def send_request_bank_swift_code(self) -> Response:
         """Provide path and parameters function.
 
         return:
             response: returning response.
         """
-        logger.info("Checking swift code is valid or not ")
-        # Swift code validate function.
-        swift_code = get_config_data()
+        logger.info("sending params for getting to the bank validate swift code.")
+        # Swift code validating response.
+        swift_code = PATH_QUERY
         path = swift_code["swift_codes_checks"]["path"]
+        query = swift_code["search_swift_code"]
         param = swift_code["swift_codes_checks"]["param"]["swift_code"]
-        swift_method_response = self.vali_obj.validation_bank_swift_code(path=path, param=param)
-        logger.info("stored valid swift code bank details into file")
+        swift_method_response = self.vali_obj.validation_bank_swift_code(path=path, query=query, param=param)
+        logger.info("Response has been got it")
         return swift_method_response
 
 
 load_dotenv()
-URL = str(os.getenv("URL"))
-API_KEY = str(os.getenv("API_KEY"))
-MainValidator(url=URL, api_key=API_KEY)
+AUT_KEY = str(os.getenv("API_KEY"))
+b_obj = BankValidation(api_key=AUT_KEY)
+b_obj.send_request_bank_details()
+b_obj.send_request_bank_name()
+b_obj.send_request_bank_iban_number()
+b_obj.send_request_bank_swift_code()

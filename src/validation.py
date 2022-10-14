@@ -4,9 +4,9 @@ import logging
 import os.path
 import sys
 
-import requests
+from sac_requests.context.request import Response
 
-module_logger = logging.getLogger(__name__)
+from src.send_request import ApiRequest
 
 sys.path.extend('./src')
 
@@ -15,127 +15,114 @@ sys.path.extend('./src')
 class Validators:
     """Initializing requirements url and params in constructor method."""
 
-    def __init__(self, url: str, api_key: str) -> None:
+    def __init__(self, api_key: str) -> None:
         """Initiate instance variable in the constructor."""
-        self.url = url
         self.api_key = api_key
-        self.logger = logging.getLogger("validation_collectors.validators")
-        self.logger.info('requirements are initializing')
+        self.send_request = ApiRequest(self.api_key)
+        self.logger = logging.getLogger("logs.__name__")
+        self.logger.info("Initialized required details.")
 
-    def bank_details(self, path: str, param: str) -> requests.Response:
+    def bank_details(self, path: str, query: str, param: str) -> Response:
         """Send a request to api and Get a response.
 
         Args:
             path (str): passing paths and params.
+            query (str): search query
             param (str): requesting params.
 
         Returns:
             response: it returns json response
         """
-        self.logger.info('getting bank details from Bank API')
-        response = None
-        if param:
-            urls = f'{self.url}/{path}?page={param}'
-            headers = {
-                'apikey': self.api_key,
-                'Content-Type': 'application/json; charset=utf-8'
-            }
-            response = requests.get(urls, headers=headers)
-        else:
-            urls = f'{self.url}/{path}'
-            headers = {
-                'apikey': self.api_key,
-                'Content-Type': 'application/json; charset=utf-8'
-            }
-            response = requests.get(urls, headers=headers)
-            file_path = './data_files/banks_details.json'
+        self.logger.info("Got it required parameters to getting bank details.and sending request.")
+        response = self.send_request.send_request_config(path=path, query=query, param=param)
+        self.logger.info("Bank Details response has been received")
+        if response.status_code == 200:
+            self.logger.info('Valid Bank details response has been received processing to storing into file.')
+            file_path = 'data_files/banks_details.json'
             mode = 'a' if os.path.exists(file_path) else 'w'
             with open(file=file_path, mode=mode, encoding='utf-8') as data_file:
                 data_file.write(json.dumps(json.loads(response.text), indent=4, sort_keys=True))
-                self.logger.info('All Bank Data stored in file')
+                self.logger.info('Bank Details response data stored in file.')
+        else:
+            err_msg: int = response.status_code
+            self.logger.error("Bank details response has been caught error code is:%d", err_msg)
         return response
 
-    def banks_names(self, path: str, param: str) -> requests.Response:
+    def banks_names(self, path: str, query: str, param: str) -> Response:
         """Get all bank names requesting BankAPi.
 
         Args:
             param ([str]): getting bank data through passing query params.
             path ([str]): this path variable is required if not passed error will through.
+            query([str]): search query get expected response.
         Return:
             response(str): return getting response from api.
         """
-        response = None
-        if param is not None:
-            urls = f'{self.url}/{path}?country_code={param}'
-            headers = {
-                'apikey': self.api_key,
-                'Content-Type': "application/json; charset=utf-8"
-            }
-            response = requests.get(urls, headers=headers)
-            if response.status_code != 429:
-                with open(file='data_files/bank_names.json', mode='w', encoding="utf-8") as file:
-                    file.write(json.dumps(json.loads(response.text), indent=4, sort_keys=True))
-            else:
-                self.logger.error("Daily request limit has been ended.")
+        self.logger.info("Got it required attributes to getting bank names response.sending request.")
+        response = self.send_request.send_request_config(path=path, query=query, param=param)
+        self.logger.info("Bank Names response has been received")
+        if response.status_code == 200:
+            self.logger.info('Bank Names response has been received. and processing to storing into file.')
+            filename = 'data_files/bank_names.json'
+            mode = 'a' if os.path.exists(filename) else 'w'
+            with open(file=filename, mode=mode, encoding="utf-8") as file:
+                file.write(json.dumps(json.loads(response.text), indent=4, sort_keys=True))
+            self.logger.info('Bank Names response data stored in file safely.')
         else:
-            self.logger.info("parameter is empty bank_names")
+            err_msg: int = response.status_code
+            self.logger.error("Bank Names response has been caught error code is :%d", err_msg)
         return response
 
-    def bank_iban_validation(self, path: str, param: str) -> requests.Response:
+    def bank_iban_validation(self, path: str, query: str, param: str) -> Response:
         """Validate iban number and Getting valid response and saving in files.
 
         Args:
-            url ([str]): destination url for getting bank api.
-            api_key ([str]): access_token for getting bank data.
-            paths ([str]): this path variable is required for validating iban number.
-            @param param:
-            @param path:
+            path ([str]): this path variable is required for validating iban number.
+            query ([str]): search query for required response
+            param ([str]): destination url for getting bank api.
         """
-        response = None
-        if param is not None:
-            urls = f'{self.url}/{path}?iban_number={param}'
-
-            headers = {
-                'apikey': self.api_key,
-                'Content-Type': "application/json; charset=utf-8"
-            }
-            response = requests.get(urls, headers=headers)
-            if response.status_code != 429:
-                data = json.loads(response.text)
-                if data.get('valid') is True:
-                    with open(file='data_files/iban_validation.json', mode='w+', encoding="utf-8") as file:
-                        file.write(json.dumps(json.loads(response.text), indent=4, sort_keys=True))
-                else:
-                    self.logger.info('This Iban number is invalid')
+        self.logger.info("Got it required attributes to getting bank names response.sending request.")
+        response = self.send_request.send_request_config(path=path, query=query, param=param)
+        self.logger.info("Bank iban validate response has been received")
+        if response.status_code == 200:
+            self.logger.info('Bank iban response has been received. and processing to storing into file.')
+            file_dir_path = 'data_files/iban_validation.json'
+            mode = 'a' if os.path.exists(file_dir_path) else 'w'
+            data = json.loads(response.text)
+            if data.get('valid') is True:
+                with open(file=file_dir_path, mode=mode, encoding="utf-8") as file:
+                    file.write(json.dumps(json.loads(response.text), indent=4, sort_keys=True))
+                self.logger.info('Bank iban response data stored in file safely.')
             else:
                 self.logger.error('The given data was invalid.The iban number field is required')
+        else:
+            err_msg: int = response.status_code
+            self.logger.error("Bank iban response has been caught error code is:%d", err_msg)
         return response
 
-    def validation_bank_swift_code(self, path: str, param: str) -> requests.Response:
+    def validation_bank_swift_code(self, path: str, query: str, param: str) -> Response:
         """Validate swift code and if its valid then storing into files.
 
         Args:
-            url([str]): destination url for getting bank api.
-            api_key([str]): access_token for getting bank data.
-            paths([str]): this path variable is required for validating swift code.
-            @param param:
-            @param path:
+            query(str): pass swift code search query.
+            param([str]): access_token for getting bank data.
+            path([str]): this path variable is required for validating swift code.
         """
-        response = None
-        if param is not None:
-            urls = f'{self.url}/{path}?swift_code={param}'
-            headers = {
-                'apikey': self.api_key,
-                'Content-Type': "application/json; charset=utf-8"
-            }
-            response = requests.get(urls, headers=headers)
-            data = json.loads(response.text)
+        self.logger.info("Got it required attributes to getting bank swift code response.sending request.")
+        response = self.send_request.send_request_config(path=path, query=query, param=param)
+        self.logger.info("Bank swift code validate response has been received")
+        if response.status_code == 200:
+            self.logger.info('Bank swift code response has been received. and processing to storing into file.')
             files = 'data_files/swift_code_valid.json'
+            mode = 'a' if os.path.exists(files) else 'w'
+            data = json.loads(response.text)
             if data.get('valid') is True:
-                with open(file=files, mode='a', encoding="utf-8") as file:
+                with open(file=files, mode=mode, encoding="utf-8") as file:
                     file.write(json.dumps(json.loads(response.text), indent=4, sort_keys=True))
+                self.logger.info('Bank swift code response data stored in file safely.')
             else:
-                self.logger.info('This swift code is invalid')
+                self.logger.error('The given data was invalid.The swift code field is required')
         else:
-            self.logger.error('The given data was invalid.The swift code field is required')
+            err_msg: int = response.status_code
+            self.logger.error("Bank iban response has been caught error code is:%d", err_msg)
         return response
