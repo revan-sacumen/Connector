@@ -1,6 +1,4 @@
 """Send request handler."""
-import logging
-
 from sac_requests.constants.general import HTTPS
 from sac_requests.context.config import HttpConfig
 from sac_requests.context.headers import HttpHeaders
@@ -8,7 +6,7 @@ from sac_requests.context.request import HttpRequest, Response
 from sac_requests.context.url import HttpURL
 from sac_requests.exceptions.base import HttpRequestError
 
-from src.confige import API_URL  # type: ignore
+from src.confige import API_URL, logger  # type: ignore
 
 
 class ApiRequest:
@@ -22,7 +20,6 @@ class ApiRequest:
         """
         self.url = API_URL
         self.api_key = api_key
-        self.loger = logging.getLogger("loger.__name__")
 
     @staticmethod
     def create_config() -> HttpConfig:
@@ -56,10 +53,10 @@ class ApiRequest:
         http_request = HttpRequest(headers=headers, url=http_url, config=config)
         response = Response()
         try:
-            self.loger.info("request has been sent.")
+            logger.info("request has been sent.")
             response = http_request.get(endpoint=endpoint)
-            self.loger.info("response has been received.")
+            logger.info("response has been received.")
         except HttpRequestError as msg:
             response.status_code = msg.errcode
-            self.loger.error("Response got error:%s", msg.message)
+            logger.error("Response got error:%s", msg.message)
         return response

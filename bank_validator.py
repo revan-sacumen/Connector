@@ -1,41 +1,19 @@
 """collector validation."""
-import logging
 import os
 import sys
 
 from dotenv import load_dotenv
 from sac_requests.context.request import Response
 
+from src.confige import logger
 from src.utlity import PATH_QUERY
 from src.validation import Validators
 
 sys.path.extend('./src')  # type: ignore
 
+
 load_dotenv()
 API_KEY = str(os.getenv("API_KEY"))
-
-# creating loggers name for saving logs parents files
-logger = logging.getLogger('validation_collectors')
-logger.setLevel(logging.DEBUG)
-
-# creating formatters
-formatters = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(process)d')
-
-# all activity of collectors saving into logs
-file_handler = logging.FileHandler('./loggs/validation_collectors.log')
-file_handler.setLevel(logging.DEBUG)
-
-# errors in console level set below
-console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.ERROR)
-
-# setting formatters to Handlers
-file_handler.setFormatter(formatters)
-console_handler.setFormatter(formatters)
-
-# adding handler to logger
-logger.addHandler(file_handler)
-logger.addHandler(console_handler)
 
 
 class BankValidation:

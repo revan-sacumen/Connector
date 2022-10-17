@@ -1,18 +1,21 @@
 """module response form Validators module."""
-
 import os
 import sys
 
 import pytest  # type: ignore
 from dotenv import load_dotenv  # type: ignore
 
+from src.send_request import ApiRequest
 from src.validation import Validators  # type: ignore
 
 sys.path.extend('./src')  # type: ignore
 
 load_dotenv()
 API_KEY = str(os.getenv("API_KEY"))
+
 obj = Validators(API_KEY)
+
+api_instance = ApiRequest(api_key=API_KEY)
 
 
 # testing weather my function returning correct response
@@ -85,3 +88,22 @@ def test_bank_swift_code_validations(path: str, query: str, param: str, expected
     """
     response_validation_iban = obj.validation_bank_swift_code(path=path, query=query, param=param)
     assert response_validation_iban.status_code == expected
+
+
+@pytest.mark.parametrize("path, query, param", [
+    ["all", "", ""],
+    ["banks_by_country", "country_code", "DE"],
+    ["iban_validate", "iban_number", "GB33BUKB20201555555555"],
+    ["swift_check", "swift_code", "AAMAADAD"]
+])
+def test_send_request(path: str, query: str, param: str):
+    """Test function take required parameter and path.
+
+    Args:
+        path (str): provide path to required response getting.
+        query (str): passing query parameter.
+        param (str): passing params.
+    """
+    response_obj = api_instance.send_request_config(
+        path=path, query=query, param=param)
+    assert response_obj.status_code == 200

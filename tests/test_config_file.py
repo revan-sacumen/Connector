@@ -1,4 +1,4 @@
-"""Config parameter and path testing."""
+"""config parameter and path testing."""
 import sys
 
 import pytest  # type: ignore
